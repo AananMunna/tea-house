@@ -19,16 +19,16 @@
 </head>
 <body class="bg-gray-950 text-gray-100 manrope">
     <header></header>
-    <main>
+    <main class="container mx-auto px-10 lg:px-30">
         <!-- hero section -->
-         <section class="lg:flex justify-between items-center pt-10 container mx-auto px-5 md:px-20 lg:px-10 2xl:px-50 lg:flex-row-reverse text-center lg:text-start">
+         <section class="lg:flex justify-between items-center pt-10 container mx-auto lg:flex-row-reverse text-center lg:text-start">
            
              <!-- image -->
               <div class="relative">
                 <img src="./images/banner.png" alt="" class="w-full">
-                <div class="rounded-lg flex bg-gray-800 p-5 w- text-start gap-5 items-center absolute bottom-5 left-10">
+                <div class="rounded-lg flex bg-gray-800 p-2 lg:p-5 text-start gap-5 items-center absolute bottom-5 left-10">
                     <div>
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-16 text-[#FFC850]">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class=" size-10 lg:size-16 text-[#FFC850]">
                             <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
                           </svg>
                         </div>
@@ -48,6 +48,34 @@
                   </button>
              </div>
          </section>
+         <!-- featured section -->
+          <section class="text-center my-20 space-y-5">
+            <h1 class="text-4xl font-extrabold">Our Featured Products</h1>
+            <p class="text-md lg:w-4/6 mx-auto">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+            <!-- cards -->
+             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+                <div class="card bg-gradient-to-b from-gray-800 to-gray-950 rounded-lg py-10 px-5 space-y-3 ">
+                    <img src="./images/tea-1.png" alt="" class="mx-auto">
+                    <h3 class="text-2xl font-extrabold">Milk Tea</h3>
+                    <p class="w-3/4 mx-auto">Creamer could be replaced by fresh milk</p>
+                </div>
+                <div class="card bg-gradient-to-b from-gray-800 to-gray-950 rounded-lg py-10 px-5 space-y-3 ">
+                    <img src="./images/tea-2.png" alt="" class="mx-auto">
+                    <h3 class="text-2xl font-extrabold">Black Tea</h3>
+                    <p class="w-3/4 mx-auto">Creamer could be replaced by fresh milk</p>
+                </div>
+                <div class="card bg-gradient-to-b from-gray-800 to-gray-950 rounded-lg py-10 px-5 space-y-3 ">
+                    <img src="./images/tea-3.png" alt="" class="mx-auto">
+                    <h3 class="text-2xl font-extrabold">Lemon Tea</h3>
+                    <p class="w-3/4 mx-auto">Creamer could be replaced by fresh milk</p>
+                </div>
+                <div class="card bg-gradient-to-b from-gray-800 to-gray-950 rounded-lg py-10 px-5 space-y-3 ">
+                    <img src="./images/tea-4.png" alt="" class="mx-auto">
+                    <h3 class="text-2xl font-extrabold">Green Tea</h3>
+                    <p class="w-3/4 mx-auto">Creamer could be replaced by fresh milk</p>
+                </div>
+             </div>
+          </section>
     </main>
     <footer></footer>
 </body>
