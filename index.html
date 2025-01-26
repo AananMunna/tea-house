@@ -6,8 +6,38 @@
     <title>Document</title>
     <!-- tailwind cdn link -->
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <!-- google font manrope -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!-- font family -->
+     <style>
+        .manrope{
+            font-family: "Manrope", serif;
+        }
+     </style>
 </head>
-<body>
-    <h1 class="">hello world</h1>
+<body class="bg-gray-950 text-gray-100 manrope">
+    <header></header>
+    <main>
+        <!-- hero section -->
+         <section class="lg:flex justify-between items-center pt-10 container mx-auto px-5 lg:px-50 lg:flex-row-reverse">
+           
+             <!-- image -->
+              <div class="">
+                <img src="./images/banner.png" alt="" class="w-full">
+              </div>
+               <!-- text -->
+             <div class="space-y-5">
+                <h1 class="text-4xl md:text-6xl font-extrabold">It's good <br> tea time at The <br> Tea House</h1>
+                <p class="text-lg w-5/6">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+                <button class="flex bg-gradient-to-r from-[#FF8938] to-[#FF0000] py-4 px-5 rounded-lg font-bold text-xl cursor-pointer hover:from-[#FF0000] hover:to-[#FF8938] transition-all hover:scale-95">Explore More <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 transform -rotate-40 ml-1">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                  </svg>
+                  </button>
+             </div>
+         </section>
+    </main>
+    <footer></footer>
 </body>
 </html>
